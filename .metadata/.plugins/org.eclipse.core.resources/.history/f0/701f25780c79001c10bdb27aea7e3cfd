@@ -1,0 +1,5 @@
+package com.coursebackend.serviceimpl;
+
+public class CourseServiceImpl {
+
+}

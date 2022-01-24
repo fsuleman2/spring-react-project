@@ -1,0 +1,5 @@
+package com.coursebackend.service;
+
+public interface CourseService {
+
+}

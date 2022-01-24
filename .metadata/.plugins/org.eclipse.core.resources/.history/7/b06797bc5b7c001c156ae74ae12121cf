@@ -1,0 +1,7 @@
+package com.coursebackend.repositoryimpl;
+
+import com.coursebackend.repository.CourseRepository;
+
+public class CourseRepositoryImpl  implements CourseRepository{
+
+}

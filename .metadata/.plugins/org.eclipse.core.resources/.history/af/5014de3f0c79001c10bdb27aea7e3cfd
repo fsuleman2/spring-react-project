@@ -1,0 +1,15 @@
+package com.coursebackend.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MyController {
+	
+	//for getting courses
+	public List<Course> getCourses(){
+		
+	}
+
+}

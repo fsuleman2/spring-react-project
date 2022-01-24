@@ -1,0 +1,73 @@
+package com.coursebackend.serviceimpl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.coursebackend.model.Course;
+import com.coursebackend.service.CourseService;
+
+@Service
+public class CourseServiceImpl implements CourseService{
+
+	//creating temporary list
+	List<Course> list;
+	public CourseServiceImpl() {
+		list = new ArrayList<Course>();
+		list.add(new Course(145,"Java Core","This course contain core java concepts"));
+		list.add(new Course(146,"Spring Boot","This course contain spring concepts"));
+		list.add(new Course(147,"Angular","This course contain Angular concepts"));
+	}
+	
+	
+	@Override
+	public List<Course> getCourses() {
+		return this.list;
+	}
+
+
+	@Override
+	public Course getCourses(Long courseId) {
+		Course c = null;
+		for(Course course:list) {
+			if(course.getId()==courseId) {
+				c=course;
+				break;
+			}
+		}
+		return c;
+	}
+
+
+	@Override
+	public Course addCourse(Course course) {
+		if(course!=null) {
+			list.add(course);
+		}
+		return course;
+		
+	}
+
+
+	
+
+
+	@Override
+	public void deleteCourse(Long courseId) {
+		Course c = null;
+		for(Course course:list) {
+			if(course.getId()==courseId) {
+				list.remove(courseId);
+			}
+		}
+		
+	}
+
+
+
+
+
+
+
+}
