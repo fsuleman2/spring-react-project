@@ -1,0 +1,26 @@
+library used in course-app:
+1)Reactstrap for using bootsrap like UI components
+2)React-toastify for giving notificatons or toast
+3)React-axios for performing get,post,put & delete request.
+
+import{
+Card,
+CardBody,
+CardTitle,
+CardSubtitle,
+CardText,
+CardFooter,
+Button,
+Container
+} from "reactstrap";
+
+life cycle of React component works in class based
+DidMount() //for adding component
+DidUpdate()
+DidUnamout()
+
+But in functional component so we have to use Hook's
+
+useState()
+useEffect() //similar to DidMount() and DidUpdate
+useEffect() loads first then page will be rendered

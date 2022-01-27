@@ -1,0 +1,10 @@
+Accronyms:
+CDCS(Clear Desk and Clear Screen)
+
+cia-confidentiality, integrity and availability
+
+safeguard of info can be achived by
+Classification, Labelling, Handling and Disposal.
+
+four confidentiality levels:
+1)public 2) Internal 3) Confidential and 4)high confidential
