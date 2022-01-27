@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <div className="container">
       <div className="jumbotron my-3">
-        <h2 className="display-4">Hello, world!</h2>
+        <h2 className="display-4">Course Application</h2>
         <p className="lead">
-          This is a simple hero unit, a simple jumbotron-style component for
-          calling extra attention to featured content or information.
+          This is a simple Course Application, based on ReactJS and Spring boot, Which allows to add 
+          course, remove course,update course.
         </p>
         <hr className="my-4" />
         <p>
