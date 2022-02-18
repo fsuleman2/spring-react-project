@@ -1,5 +1,0 @@
-package com.coursebackend.service;
-
-public interface CourseService {
-public List<Course> getCourses();
-}
